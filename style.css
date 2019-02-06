@@ -1,5 +1,14 @@
 html {
     background: pink;    
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;    
+    display: flex;
+    flex: 1;     
+    align-items: center;
+    margin: 0;
 }
 
 
@@ -8,4 +17,9 @@ html {
     height: 30rem;
     border-radius: 50%;
     border: 20px solid white;
+    display: inline-block;
+    position: relative;
+    /* auto  horizontally center that element within its container. 
+    The element will take up the width you specify, then the remaining space will be split evenly between the two margins. */
+    margin:100px auto;
 }
