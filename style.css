@@ -24,6 +24,12 @@ body{
     margin:100px auto;
 }
 
+.clock-face {
+    width: 100%;
+    height: 100%;
+    position: relative;    
+}
+
 /* a rectangle */
 .hand {
     height: 6px;
