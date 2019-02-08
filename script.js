@@ -28,14 +28,23 @@ window.onload = function(){
         //Get minutes in degrees
         const minuteDegrees = ((minutes/60) * 360);
 
+        //Get hours in degrees
+        const hourDegrees = ((hours/60) * 360);
+
         //We need to apply styles to the second hand
         secondHand.style.transform = `rotate(${secondDegrees}deg)`
 
         //Apply styles to minutes
+        minuteHand.style.transform = `rotate(${minuteDegrees}deg)`
+
+        //Apply styles to hours
+        hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 
 
-
-        console.log(seconds)
+        //console.log(seconds);
+        //console.log(minutes);
+        //console.log(hours);
+        console.log(now);
     }
 
     //We need the setDate fxn to run every second
