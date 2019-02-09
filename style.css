@@ -9,6 +9,7 @@ body{
     flex: 1;     
     align-items: center;
     margin: 0;
+    font-size:2rem;
 }
 
 .clock {
@@ -21,13 +22,14 @@ body{
     position: relative;
     /* auto  horizontally center that element within its container. 
     The element will take up the width you specify, then the remaining space will be split evenly between the two margins. */
-    margin:100px auto;
+    margin:50px auto;
 }
 
 .clock-face {
     width: 100%;
     height: 100%;
-    position: relative;  
+    position: relative;
+    transform: translateY(-3px);  
       
 }
 
